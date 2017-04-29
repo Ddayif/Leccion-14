@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Formulario</title>
+</head>
+<body background="assets/image/Hermoso-verde-fondo-Para-Pc-Abstracto-Fondos-de-pantalla.jpg">
+<div style="text-align: center;">
+    <h1>Formulario de datos</h1></font>
+    <form>
+        <p>
+            Nombre:<br>
+            <input type="text" name="nombre" autofocus="" required=""></br>
+        </p>
+        <p>
+            Apellido:<br>
+            <input type="text" name="apellido" required=""></br>
+        </p>
+        <p>
+            Telefono:<br>
+            <input type="tel" name="telefono" pattern="[0-9]{9}" title="debe tener al menos 9 digitos" required=""></br>
+        </p>
+        <p>
+            Email:<br>
+            <input type="email" name="email" required=""></br>
+        </p>
+        <p>
+            Escoge tu automovil<br>
+            <select name="ningu" id="ningunito" required="">
+                <option value="ninguno">Ninguno</option>
+                <option value="Volvo">Volvo</option>
+                <option value="Saab">Saab</option>
+                <option value="Mercedes">Mercedes</option>
+                <option value="Audi">Audi</option>
+            </select>
+            </br</p>
+            <p>
+                <label for="pw">Crea tu contraseña</label></br>
+                <input type="password" name="pw" pattern=".{6,}" title="6 o mas caracteres" required=""></br>
+            </p>
+            <p>
+                <input type="submit" name="" value="Send">
+            </p>
+        </form>
+    </div>
+    <script src="js/javascript.js"></script>
+    </body>
+    </html>
